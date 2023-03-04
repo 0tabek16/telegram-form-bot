@@ -1,0 +1,16 @@
+{
+  "name": "telegram-form-bot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:0tabek16/telegram-form-bot.git",
+  "author": "Otabek Keldiyorov <okeldiyorov@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fastify": "^4.14.0",
+    "telegraf": "^4.11.2"
+  }
+}
