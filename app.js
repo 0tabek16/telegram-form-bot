@@ -34,7 +34,7 @@ bot.start((ctx) =>
 // Run the server!
 const start = async () => {
   try {
-    await fastify.listen({ port: PORT });
+    await fastify.listen({ port: PORT, host: "0.0.0.0" });
     await bot.launch();
   } catch (err) {
     fastify.log.error(err);
